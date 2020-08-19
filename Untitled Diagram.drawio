@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-19T09:52:21.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59" etag="OxczOxZS5EBHpQxCHYiT" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-19T09:54:43.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59" etag="Zgiv5b_dc-wB_uuogFNl" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1609" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,14 +33,36 @@
             <mxRectangle x="-340" y="100" width="120" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rkQjQ697C5nL5J8eR8qa-1" source="rkQjQ697C5nL5J8eR8qa-3" target="rkQjQ697C5nL5J8eR8qa-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="rkQjQ697C5nL5J8eR8qa-1" source="rkQjQ697C5nL5J8eR8qa-3" target="rkQjQ697C5nL5J8eR8qa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rkQjQ697C5nL5J8eR8qa-3" value="提取pathInfo[i][0]" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
-          <mxGeometry x="130" y="60" width="130" height="40" as="geometry" />
+          <mxGeometry x="130" y="40" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rkQjQ697C5nL5J8eR8qa-9" value="pathInfo[i][0]&lt;br&gt;==1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
           <mxGeometry x="20" y="130" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rkQjQ697C5nL5J8eR8qa-10" value="pathInfo[i][0]&lt;br&gt;==1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="rkQjQ697C5nL5J8eR8qa-1" source="rkQjQ697C5nL5J8eR8qa-10" target="rkQjQ697C5nL5J8eR8qa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-10" value="pathInfo[i][0]&lt;br&gt;==2" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
           <mxGeometry x="230" y="130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-14" value="当前路径为直线&lt;br&gt;调用 poseLineGen" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
+          <mxGeometry x="25" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Courier New;" edge="1" parent="rkQjQ697C5nL5J8eR8qa-1" source="rkQjQ697C5nL5J8eR8qa-9" target="rkQjQ697C5nL5J8eR8qa-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-15" value="当前路径为直线&lt;br&gt;调用 poseCircGen" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="rkQjQ697C5nL5J8eR8qa-1">
+          <mxGeometry x="235" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rkQjQ697C5nL5J8eR8qa-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-1" target="rkQjQ697C5nL5J8eR8qa-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
