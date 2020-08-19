@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-19T13:45:59.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59" etag="uBEsoUNbqrRm4-isq8AB" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-19T14:42:15.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36 Edg/84.0.522.59" etag="-Eh8kCvyf9jxlJs9s3RD" version="13.6.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1609" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1409" dy="1674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -165,11 +165,56 @@
         <mxCell id="rkQjQ697C5nL5J8eR8qa-47" value="lastTanParrel&lt;br&gt;==1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="95" y="720" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-48" target="rkQjQ697C5nL5J8eR8qa-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rkQjQ697C5nL5J8eR8qa-48" value="上段路径的末点切线和本段路径平行" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-105" y="980" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-50" target="rkQjQ697C5nL5J8eR8qa-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rkQjQ697C5nL5J8eR8qa-50" value="上段路径的切线和本点不平行" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-52" target="rkQjQ697C5nL5J8eR8qa-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-52" value="将lastPathPt&lt;br&gt;push_back到临时vector变量 tmpVec6d当中" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-105" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-54" value="设置本路径属性为&lt;br&gt;“无过渡点路径”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-105" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-57" target="rkQjQ697C5nL5J8eR8qa-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-57" target="rkQjQ697C5nL5J8eR8qa-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-57" value="提取 &lt;br&gt;pathInfo[i-1][0]" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1000" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-59" target="rkQjQ697C5nL5J8eR8qa-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-59" value="==1:路径为直线" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rkQjQ697C5nL5J8eR8qa-60" target="rkQjQ697C5nL5J8eR8qa-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-60" value="==2:路径为圆弧" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-63" value="设置本路径属性为&lt;br&gt;“同点过渡”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-64" value="设置本路径属性为&lt;br&gt;“切线过渡”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rkQjQ697C5nL5J8eR8qa-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
