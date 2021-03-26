@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T02:08:39.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="glLR3dEwwJi_HNJjhKk2" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T02:12:54.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="stC7hBPLGn0wHxDZxXfw" version="14.4.2" type="github">
   <diagram id="x87WVIfukVuzpfLglqjt" name="Page-1">
     <mxGraphModel dx="654" dy="1764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iU9pxKzeouGR61ay9LNh-64" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1474" width="430" height="396" as="geometry" />
+        </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-56" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="630" y="850" width="430" height="560" as="geometry" />
         </mxCell>
@@ -113,13 +116,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-33" value="循环调用&lt;br&gt;my_double_hough" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-34" target="iU9pxKzeouGR61ay9LNh-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-34" value="初始化起止点定位&lt;br&gt;init_StartEndLocation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="1970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-36" target="iU9pxKzeouGR61ay9LNh-33">
           <mxGeometry relative="1" as="geometry" />
@@ -131,22 +134,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-37" value="初始化端点检测&lt;br&gt;init_LineSegFind" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1310" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="2110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-39" target="iU9pxKzeouGR61ay9LNh-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-39" value="线段提取预处理&lt;br&gt;findLineSeg_Preprocess" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="372.5" y="1450" width="145" height="60" as="geometry" />
+          <mxGeometry x="372.5" y="2250" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-41" target="iU9pxKzeouGR61ay9LNh-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-41" value="线1、2&lt;br&gt;起止图像序号定位&lt;br&gt;locateStartEnd" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1590" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="2390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-43" value="根据起止图像序号结果&lt;br&gt;提取轮廓点&lt;br&gt;findLineSeg_AfterPreprocess" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="357.5" y="1730" width="175" height="60" as="geometry" />
+          <mxGeometry x="357.5" y="2530" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-46" target="iU9pxKzeouGR61ay9LNh-47">
           <mxGeometry relative="1" as="geometry" />
@@ -198,6 +201,18 @@
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-61" value="每次搜索到的极值如果符合要求，调用：&lt;br&gt;voteMatFilter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-65" value="mdbh_vec_rhos&lt;br&gt;mdbh_vec_thes&lt;br&gt;mdbh_vec_gcs&lt;br&gt;mdbh_vec_onLinePtInds&lt;br&gt;mdbh_vec_onLinePtNums&lt;br&gt;mdbh_vec_discardOnLinePtInds&lt;br&gt;mdbh_vec_discardOnLinePtNums" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1755" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-66" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-33" target="iU9pxKzeouGR61ay9LNh-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="1340" as="sourcePoint" />
+            <mxPoint x="620" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-67" value="以当前Hough结果为基础确定一条直线，&lt;br&gt;在当前图片中搜索距离该直线&lt;br&gt;ZMJ_SitePara.rehough_lineWidth&lt;br&gt;以内的点，将这些点的Hough投票值从&lt;br&gt;原投票矩阵中减掉，再进行下次极值搜索" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1610" width="50" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
