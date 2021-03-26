@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T03:03:52.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="fFvvop5OkA9sz-u69u8L" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T03:08:18.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="i8Pb1jNUUhGy9H8e3pYd" version="14.4.2" type="github">
   <diagram id="x87WVIfukVuzpfLglqjt" name="Page-1">
     <mxGraphModel dx="2377" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,6 +270,12 @@
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-90" value="tab_mt_binary" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="783.5" y="70" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-91" value="m_BkGndVoteMat" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="783.5" y="160" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-92" value="&lt;div&gt;lst_ptr_nonzeroIdx.clear();&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;lst_nonzero_num.clear();&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;lst_nonzero_num_backup.clear();&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="783.5" y="340" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
