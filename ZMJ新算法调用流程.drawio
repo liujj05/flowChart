@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T01:32:02.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="1Gluk9GG0jLq-mwKlvDh" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T01:41:09.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="kUj22tO0K2gzzQieCGhR" version="14.4.2" type="github">
   <diagram id="x87WVIfukVuzpfLglqjt" name="Page-1">
     <mxGraphModel dx="1550" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,19 +110,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-33" value="循环调用&lt;br&gt;my_double_hough" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-34" target="iU9pxKzeouGR61ay9LNh-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-34" value="初始化起止点定位&lt;br&gt;init_StartEndLocation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-36" target="iU9pxKzeouGR61ay9LNh-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-36" value="初始化hough&lt;br&gt;init_double_hough" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-37" target="iU9pxKzeouGR61ay9LNh-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iU9pxKzeouGR61ay9LNh-37" value="初始化端点检测&lt;br&gt;init_LineSegFind" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1170" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-39" target="iU9pxKzeouGR61ay9LNh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-39" value="线段提取预处理&lt;br&gt;findLineSeg_Preprocess" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="1450" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iU9pxKzeouGR61ay9LNh-41" target="iU9pxKzeouGR61ay9LNh-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-41" value="线1、2&lt;br&gt;起止图像序号定位&lt;br&gt;locateStartEnd" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iU9pxKzeouGR61ay9LNh-43" value="根据起止图像序号结果&lt;br&gt;提取轮廓点&lt;br&gt;findLineSeg_AfterPreprocess" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="1730" width="175" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
