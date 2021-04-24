@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T10:22:22.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" version="14.5.4" etag="JYAke7cQdt3aqAJ7f1tf" type="github"><diagram id="--lvGRvB5rHvZxM7AZkz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-24T10:28:48.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="-WzoBkPHlAfhHZXAjITz" version="14.5.4" type="github">
+  <diagram id="--lvGRvB5rHvZxM7AZkz" name="Page-1">
+    <mxGraphModel dx="2014" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ACUmvZVGLuBH17mfcipd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-1" target="ACUmvZVGLuBH17mfcipd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-2" target="ACUmvZVGLuBH17mfcipd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-2" value="输入参数：&lt;br&gt;std::vector&amp;lt;std::vector&amp;lt;TrajLink&amp;gt;&amp;gt; totalLink&lt;br&gt;std::vector&amp;lt;TrajectoryPath&amp;gt; inputPath" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-6" target="ACUmvZVGLuBH17mfcipd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-6" value="查看totalLink首个元素&lt;br&gt;tmpVec_TL = totalLink[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="310" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-7" value="tmpVec_TL.size() == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="430" width="196" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-9" value="报错，返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-12" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336" y="59.5" as="sourcePoint" />
+            <mxPoint x="256" y="59.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-13" value="输出量&lt;br&gt;std::list&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-14" target="ACUmvZVGLuBH17mfcipd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-14" value="定义输出量&lt;br&gt;std::list&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; retList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="170" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
