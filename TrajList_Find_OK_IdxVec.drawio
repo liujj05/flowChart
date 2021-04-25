@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T10:28:48.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="-WzoBkPHlAfhHZXAjITz" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T01:01:27.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="w0CRGNcuZmXseubu0meK" version="14.5.4" type="github">
   <diagram id="--lvGRvB5rHvZxM7AZkz" name="Page-1">
-    <mxGraphModel dx="2014" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2841" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,11 +24,19 @@
         <mxCell id="ACUmvZVGLuBH17mfcipd-6" value="查看totalLink首个元素&lt;br&gt;tmpVec_TL = totalLink[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="336" y="310" width="156" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-7" target="ACUmvZVGLuBH17mfcipd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-18" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-7" target="ACUmvZVGLuBH17mfcipd-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-7" value="tmpVec_TL.size() == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="316" y="430" width="196" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ACUmvZVGLuBH17mfcipd-9" value="报错，返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="ACUmvZVGLuBH17mfcipd-9" value="报错，返回空的 retList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-12" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -44,6 +52,42 @@
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-14" value="定义输出量&lt;br&gt;std::list&amp;lt;std::vector&amp;lt;int&amp;gt;&amp;gt; retList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="170" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-21" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-19" target="ACUmvZVGLuBH17mfcipd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-23" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-19" target="ACUmvZVGLuBH17mfcipd-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-19" value="inputPath[0].type == MOVC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="570" width="196" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-20" target="ACUmvZVGLuBH17mfcipd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-20" value="遍历tmpVec_TL的每个元素&lt;br&gt;tmpVec_int.push_back(tmpVec_TL[i].preIdx)&lt;br&gt;tmpVec_int.push_back(tmpVec_TL[i].midIdx)&lt;br&gt;tmpVec_int.push_back(tmpVec_TL[i].nextIdx)&lt;br&gt;retList.push_back(tmpVec_int)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="660" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-22" target="ACUmvZVGLuBH17mfcipd-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-22" value="遍历tmpVec_TL的每个元素&lt;br&gt;tmpVec_int.push_back(tmpVec_TL[i].preIdx)&lt;br&gt;tmpVec_int.push_back(tmpVec_TL[i].nextIdx)&lt;br&gt;retList.push_back(tmpVec_int)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="750" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-24" target="ACUmvZVGLuBH17mfcipd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-24" value="i = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-27" target="ACUmvZVGLuBH17mfcipd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-27" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-29" value="i &amp;lt; totalLink.size()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1169" width="144" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
