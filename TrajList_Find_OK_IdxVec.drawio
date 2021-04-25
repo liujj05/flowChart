@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T02:49:50.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="B987RkS4PtpXSUeahmOP" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T03:03:37.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="rIUn54kFwear1nDntpaf" version="14.5.4" type="github">
   <diagram id="--lvGRvB5rHvZxM7AZkz" name="Page-1">
     <mxGraphModel dx="4023" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ACUmvZVGLuBH17mfcipd-123" value="针对第i条路径，的第j个连通序列&lt;br&gt;遍历结果retList中的所有序列&lt;br&gt;看是否能够连上" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;align=right;verticalAlign=bottom;horizontal=1;labelPosition=center;verticalLabelPosition=middle;fontSize=16;spacingLeft=30;spacingTop=20;fillColor=#d5e8d4;strokeColor=#82b366;spacingRight=30;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2000" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-122" value="针对第i条路径，遍历它所有可能的连通序列&lt;br&gt;看各个连通序列的首索引是否能和目前已经存在的结果进行接续" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;align=right;verticalAlign=top;horizontal=1;labelPosition=center;verticalLabelPosition=middle;fontSize=16;spacingLeft=30;spacingTop=20;fillColor=#d5e8d4;strokeColor=#82b366;spacingRight=30;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1580" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-121" value="进入主循环&lt;br style=&quot;font-size: 16px;&quot;&gt;依次遍历各个路径的连通解&lt;br style=&quot;font-size: 16px;&quot;&gt;并尝试将它们接续起来" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;align=right;verticalAlign=top;horizontal=1;labelPosition=center;verticalLabelPosition=middle;fontSize=16;spacingLeft=30;spacingTop=20;fillColor=#d5e8d4;strokeColor=#82b366;spacingRight=30;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="920" width="740" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-38" value="&lt;font style=&quot;font-size: 16px&quot;&gt;首条路径连通结果如果为空，报错退出&lt;br&gt;不为空，则将所有可能的结果依次全部拷贝入输出量&lt;/font&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;align=left;verticalAlign=top;horizontal=1;labelPosition=center;verticalLabelPosition=middle;fontSize=13;spacingLeft=30;spacingTop=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-310" y="270" width="940" height="630" as="geometry" />
         </mxCell>
@@ -95,7 +104,7 @@
         <mxCell id="ACUmvZVGLuBH17mfcipd-33" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-29" target="ACUmvZVGLuBH17mfcipd-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ACUmvZVGLuBH17mfcipd-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-29" target="ACUmvZVGLuBH17mfcipd-35">
+        <mxCell id="ACUmvZVGLuBH17mfcipd-36" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-29" target="ACUmvZVGLuBH17mfcipd-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-29" value="i &amp;lt; totalLink.size()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
