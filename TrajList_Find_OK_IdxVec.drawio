@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T01:51:59.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="GhcsIZL4B5WNnM0F66NM" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T02:37:56.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="nWeFP5Bmrugj4wuAVCjP" version="14.5.4" type="github">
   <diagram id="--lvGRvB5rHvZxM7AZkz" name="Page-1">
     <mxGraphModel dx="2841" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,8 +122,8 @@
         <mxCell id="ACUmvZVGLuBH17mfcipd-40" value="searchLen = retList.size()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
           <mxGeometry x="304" y="1481" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ACUmvZVGLuBH17mfcipd-41" value="其实不用back&lt;br&gt;用任何一个元素的都可以" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1361" width="150" height="40" as="geometry" />
+        <mxCell id="ACUmvZVGLuBH17mfcipd-41" value="retList里面存的所有连通索引序列在后续数据到来的时候，都要经过一轮检测，看是否能够继续连通，被检测的数据所处的位置是searchIdx&lt;br&gt;其实不用back&lt;br&gt;用任何一个元素的都可以" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="543" y="1330.5" width="220" height="101" as="geometry" />
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-42" target="ACUmvZVGLuBH17mfcipd-48">
           <mxGeometry relative="1" as="geometry" />
@@ -138,6 +138,9 @@
           <mxGeometry x="580" y="1750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-51" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-48" target="ACUmvZVGLuBH17mfcipd-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-92" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-48" target="ACUmvZVGLuBH17mfcipd-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-48" value="j &amp;lt; tmpVec_TL.size()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -158,8 +161,115 @@
         <mxCell id="ACUmvZVGLuBH17mfcipd-55" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-54" target="ACUmvZVGLuBH17mfcipd-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-60" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-54" target="ACUmvZVGLuBH17mfcipd-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ACUmvZVGLuBH17mfcipd-54" value="k &amp;lt; searchLen" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="342" y="2150" width="144" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-58" value="接续的过程中retList的长度可能会发生变化，但是多出来的那些肯定是已经被接续过的了，不需要再次检查。&lt;br&gt;所以这里先存一个原始的。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1491" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-62" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-59" target="ACUmvZVGLuBH17mfcipd-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-59" value="(*it_retList)[searchIdx] == curPre" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2300" width="258" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-64" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-61" target="ACUmvZVGLuBH17mfcipd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-68" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-61" target="ACUmvZVGLuBH17mfcipd-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-61" value="(*it_retList).size() == searchIdx + 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2450" width="258" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-73" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-63" target="ACUmvZVGLuBH17mfcipd-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-74" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-63" target="ACUmvZVGLuBH17mfcipd-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-63" value="inputPath[i].type == MOVC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="2590" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-65" value="新来的数据可以和it_retList指向的序列连通" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2420" width="256" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-66" value="it_retList指向的序列已经被别的新数据占用（该被指向序列存在一对多的情况，这种情况通常发生在MOVJ时）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2500" width="256" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-67" target="ACUmvZVGLuBH17mfcipd-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-67" value="tmpVec_intAdd = *it_retList" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="763" y="2590" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-78" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-69" target="ACUmvZVGLuBH17mfcipd-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-79" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-69" target="ACUmvZVGLuBH17mfcipd-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-69" value="inputPath[i].type == MOVC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="753" y="2720" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-71" target="ACUmvZVGLuBH17mfcipd-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-71" value="(*it_retList).push_back(tmpVec_TL[j].midIdx)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="2690" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-72" target="ACUmvZVGLuBH17mfcipd-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-72" value="(*it_retList).push_back(tmpVec_TL[j].nextIdx)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2800" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-76" target="ACUmvZVGLuBH17mfcipd-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-76" value="tmpVec_intAdd.pop_back()&lt;br&gt;tmpVec_intAdd.pop_back()&lt;br&gt;tmpVec_intAdd.push_back(tmpVec_TL[j].midIdx)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="2883" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-77" target="ACUmvZVGLuBH17mfcipd-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-77" value="tmpVec_intAdd.pop_back()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="703" y="2883" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-80" target="ACUmvZVGLuBH17mfcipd-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-80" value="&lt;span style=&quot;font-size: 12px&quot;&gt;tmpVec_intAdd.push_back(tmpVec_TL[j].nextIdx)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="713" y="3030" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-83" target="ACUmvZVGLuBH17mfcipd-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-83" value="retList.push_back(tmpVec_intAdd)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="731.5" y="3160" width="233" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="ACUmvZVGLuBH17mfcipd-86" target="ACUmvZVGLuBH17mfcipd-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="3190" />
+              <mxPoint x="-330" y="2190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-86" value="it_retList++&lt;br&gt;k++" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="354" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-90" value="okSize = searchIdx+2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-91" value="inputPath[i].type == MOVC" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1740" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACUmvZVGLuBH17mfcipd-93" value="okSize = searchIdx+3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1800" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
